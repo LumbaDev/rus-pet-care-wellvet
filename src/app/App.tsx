@@ -256,7 +256,7 @@ export default function App() {
                   <span className="text-white/90 text-xs font-medium">🐾 Cuidá su biniestar y pagá menos</span>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-2 leading-none">Salud para mascotas 🧡 </h1>
+                <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold text-white mb-2 leading-none">Salud para mascotas 🧡 </h1>
 
                 <p className="text-base text-white/90 mb-6 max-w-md leading-snug">Con tu veterinario de confianza.</p>
 

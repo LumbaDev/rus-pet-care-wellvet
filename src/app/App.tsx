@@ -394,7 +394,7 @@ export default function App() {
             <div className="flex items-center justify-center gap-2 my-4">
               <div>
                 <h2 className="text-2xl md:text-3xl text-gray-900">
-                  ¿Cómo usar <span className="font-bold">RUS PetCare</span> en WellVet?
+                  Elegí tu plan <span className="font-bold">RUS PetCare</span>
                 </h2>
               </div>
             </div>
@@ -740,7 +740,7 @@ export default function App() {
               <div className="flex items-center justify-center gap-2 my-4">
                 <div>
                   <h2 className="text-xl xl:text-2xl md:text-3xl text-gray-900 flex items-center gap-2">
-                    ¿Cómo usar <span className="font-bold">RUS PetCare</span>?
+                    ¿Cómo usar <span className="font-bold">RUS PetCare</span> en WellVet?
                   </h2>
                 </div>
               </div>

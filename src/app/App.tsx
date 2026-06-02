@@ -258,7 +258,7 @@ export default function App() {
 
                 <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-2 leading-none">Salud para mascotas 🧡 </h1>
 
-                <p className="text-base text-white/90 mb-6 max-w-md leading-snug">Acompañamiento integral de su bienestar.</p>
+                <p className="text-base text-white/90 mb-6 max-w-md leading-snug">Con tu veterinario de confianza.</p>
 
                 <a href="#planes" className="bg-[#F29100] hover:bg-[#d97e00] text-white px-8 py-3.5 rounded-full text-base font-bold transition-all shadow-2xl hover:scale-105 inline-flex items-center gap-2">
                   Ver planes

@@ -1,0 +1,54 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # 1. Definimos la base exacta de tu carpeta
+  RewriteBase /partners/rus-pet-care/
+  
+  # 2. SEGURO ANTI-ERROR: Obligamos a usar index.html
+  DirectoryIndex index.html
+
+  # 3. Reglas SPA (React):
+  # Si el archivo o directorio real existe, sírvelo.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Si no existe, redirige internamente al index.html
+  RewriteRule . index.html [L]
+</IfModule>
+
+# 4. Cabeceras de seguridad
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# 5. Compresión Gzip
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json
+</IfModule>
+
+# 6. Estrategia de Caché Corregida
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Assets estáticos (se pueden cachear porque suelen tener hashes en el nombre)
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Forzamos que el HTML expire de inmediato
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+# 7. Regla de Oro: Evitar que index.html se fuerce desde la caché
+<FilesMatch "index\.html$">
+  <IfModule mod_headers.c>
+    # Estas cabeceras obligan al navegador a pedir el archivo al servidor cada vez
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+  </IfModule>
+</FilesMatch>

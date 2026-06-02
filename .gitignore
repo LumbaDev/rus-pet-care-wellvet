@@ -1,0 +1,56 @@
+# --- DEPENDENCIAS ---
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+
+# --- VARIABLES DE ENTORNO (CRÍTICO) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.bak
+
+# --- COMPILACIÓN Y SALIDA ---
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# --- LOGS Y DEPURACIÓN ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- EDITORES (VS Code, JetBrains) ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- BASES DE DATOS / LOCAL STORAGE ---
+*.sqlite
+*.db
+/dump.rdb
+
+# --- PROCESOS (PM2, Forever) ---
+pids/
+lib-cov/
+coverage/
+.nyc_output/
+.pm2/

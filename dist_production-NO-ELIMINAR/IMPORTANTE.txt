@@ -1,0 +1,5 @@
+Esta carpeta contiene lo subido al server de rus en :
+public_html/partners/rus-pet-care/
+
+Ver configuración en : .htaccess y en index.html de las rutas de los archivos .js y .css 
+En index.html las rutas de los archivos .js y .css tienen que tener el prefijo /partners/rus-pet-care/assets/

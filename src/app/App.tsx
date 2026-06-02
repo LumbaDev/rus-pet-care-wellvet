@@ -1,12 +1,12 @@
 /// <reference types="vite/client" />
-import { Shield, CheckCircle, ArrowRight, Video, Stethoscope, Heart, Pill, Sparkles, Phone, Menu, X, Star, FlaskConical, MessageCircle } from "lucide-react";
+import { Shield, CheckCircle, ArrowRight, Video, Stethoscope, Heart, Pill, Sparkles, Phone, Menu, X, Star, FlaskConical, MessageCircle, Syringe, HeartPulse } from "lucide-react";
 import Swal from "sweetalert2";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { useForm } from "react-hook-form";
 import heroImage from "../assets/hero-image.png";
-import logoImage from "../assets/logo-chip-petcare.svg";
-import logoNavImage from "../assets/logo-chip-petcare.svg";
+import logoImage from "../assets/logo-chip-petcare.png";
+import logoNavImage from "../assets/logo-chip-petcare.png";
 import logoSolo from "../assets/logo-nav-image.png";
 import vetCareImage from "../assets/vet-care-image.png";
 import ssnLogo from "../assets/ssn-logo.svg";
@@ -27,16 +27,22 @@ export default function App() {
 
   const services = [
     {
-      icon: Shield,
-      label: "Cobertura",
-      value: "Responsabilidad Civil",
-      description: "Una de las sumas más altas del mercado",
+      icon: FlaskConical,
+      label: "Estudios y análisis",
+      value: "Bienestar",
+      description: "Reintegros",
     },
     {
-      icon: Video,
-      label: "Telemedicina",
-      value: "Ilimitada",
-      description: "Resolvé dudas desde casa",
+      icon: Syringe,
+      label: "Vacunación",
+      value: "Prevención",
+      description: "Reintegros",
+    },
+    {
+      icon: HeartPulse,
+      label: "Cirugía e internación",
+      value: "Cuidado",
+      description: "Reintegros",
     },
     {
       icon: Stethoscope,
@@ -49,12 +55,6 @@ export default function App() {
       label: "Medicamentos",
       value: "40% OFF",
       description: "Reintegros",
-    },
-    {
-      icon: Sparkles,
-      label: "Higiene",
-      value: "Baño y peluquería",
-      description: "Bienestar de tu mascota",
     },
   ];
 
@@ -253,10 +253,10 @@ export default function App() {
               {/* Left Content */}
               <div className="max-w-lg">
                 <div className="inline-block px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full mb-2">
-                  <span className="text-white/90 text-xs font-medium">🐾 Evolucionamos para cuidarlos</span>
+                  <span className="text-white/90 text-xs font-medium">🐾 Cuidá su biniestar y pagá menos</span>
                 </div>
 
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-2 leading-none">Salud Animal 🧡</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-2 leading-none">Salud para mascotas 🧡 </h1>
 
                 <p className="text-base text-white/90 mb-6 max-w-md leading-snug">Acompañamiento integral de su bienestar.</p>
 
@@ -310,7 +310,7 @@ export default function App() {
                     </div>
                     <div>
                       <div className="text-xs text-gray-600">Coberturas hasta</div>
-                      <div className="text-base font-bold text-gray-900">$100K</div>
+                      <div className="text-base font-bold text-gray-900">$250K</div>
                     </div>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ export default function App() {
           {/* Header */}
           <div className="text-center mb-10">
             <div className="inline-block px-4 py-1.5 bg-[#6AC9D9]/15 rounded-full mb-3">
-              <span className="text-[#2F73E8] font-bold text-xs uppercase tracking-wider">Un paso adelante en cuidado animal</span>
+              <span className="text-[#2F73E8] font-bold text-xs uppercase tracking-wider">Una nueva forma de Cuidar</span>
             </div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 leading-tight">¡Más que un seguro!</h2>
             <p className="text-base text-gray-600 max-w-2xl mx-auto">Sumamos prevención y acompañamiento a la protección tradicional.</p>
@@ -394,7 +394,7 @@ export default function App() {
             <div className="flex items-center justify-center gap-2 my-4">
               <div>
                 <h2 className="text-2xl md:text-3xl text-gray-900">
-                  Elegí tu plan <span className="font-bold">RUS PetCare</span>
+                  ¿Cómo usar <span className="font-bold">RUS PetCare</span> en WellVet?
                 </h2>
               </div>
             </div>

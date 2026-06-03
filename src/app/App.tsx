@@ -253,7 +253,7 @@ export default function App() {
               {/* Left Content */}
               <div className="max-w-lg">
                 <div className="inline-block px-3 py-1.5 bg-white/10 backdrop-blur-sm rounded-full mb-2">
-                  <span className="text-white/90 text-xs font-medium">🐾 Cuidá su biniestar y pagá menos</span>
+                  <span className="text-white/90 text-xs font-medium">🐾 Cuidá su bienestar y pagá menos</span>
                 </div>
 
                 <h1 className="text-2xl md:text-4xl lg:text-4xl font-bold text-white mb-2 leading-none">Salud para mascotas 🧡 </h1>

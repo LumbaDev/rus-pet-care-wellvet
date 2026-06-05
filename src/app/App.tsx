@@ -16,7 +16,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Input } from "@/app/components/ui/input";
 import { Label } from "@/app/components/ui/label";
 
-const REDIRECT_URL = "https://www.rus.com.ar/productos/mascotas/?utm_source=landing&utm_medium=web&utm_campaign=petcare_landing";
+const REDIRECT_URL = "https://www.rus.com.ar/productos/mascotas/17287?utm_source=landing&utm_medium=web&utm_campaign=petcare_landing_wellvet";
 
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -458,7 +458,7 @@ export default function App() {
                 <a href={REDIRECT_URL} target="_blank" rel="noopener noreferrer" className="w-full bg-[#26499D] hover:bg-[#1a3875] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105 shadow-md mb-2 flex justify-center items-center">
                   Contratar ahora
                 </a>
-                <a href="https://wa.me/5491139869999?text=Hola,%20me%20interesa%20el%20plan%20SIMPLE%20de%20RUS%20PetCare" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
+                <a href="https://wa.me/5491139869999?text=Hola!%20Me%20interesa%20el%20PLAN%20SIMPLE%20de%20RUS%20PETCARE%20-%20WellVet." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
                   <MessageCircle className="w-4 h-4" />
                   Hablar por WhatsApp
                 </a>
@@ -510,7 +510,7 @@ export default function App() {
                 <a href={REDIRECT_URL} target="_blank" rel="noopener noreferrer" className="w-full bg-[#26499D] hover:bg-[#1a3875] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105 shadow-md mb-2 flex justify-center items-center">
                   Contratar ahora
                 </a>
-                <a href="https://wa.me/5491139869999?text=Hola,%20me%20interesa%20el%20plan%20ESENCIAL%20de%20RUS%20PetCare" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
+                <a href="https://wa.me/5491139869999?text=Hola!%20Me%20interesa%20el%20PLAN%20ESENCIAL%20de%20RUS%20PETCARE%20-%20WellVet." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
                   <MessageCircle className="w-4 h-4" />
                   Hablar por WhatsApp
                 </a>
@@ -571,7 +571,7 @@ export default function App() {
                 <a href={REDIRECT_URL} target="_blank" rel="noopener noreferrer" className="w-full bg-[#F29100] hover:bg-[#d97e00] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105 shadow-md mb-2 flex justify-center items-center">
                   Contratar ahora
                 </a>
-                <a href="https://wa.me/5491139869999?text=Hola,%20me%20interesa%20el%20plan%20INTEGRAL%20de%20RUS%20PetCare" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:bg-white/10 text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
+                <a href="https://wa.me/5491139869999?text=Hola!%20Me%20interesa%20el%20PLAN%20INTEGRAL%20de%20RUS%20PETCARE%20-%20WellVet." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 border-2 border-white/30 hover:bg-white/10 text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
                   <MessageCircle className="w-4 h-4" />
                   Hablar por WhatsApp
                 </a>
@@ -635,7 +635,7 @@ export default function App() {
                 <a href={REDIRECT_URL} target="_blank" rel="noopener noreferrer" className="w-full bg-[#26499D] hover:bg-[#1a3875] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105 shadow-md mb-2 flex justify-center items-center">
                   Contratar ahora
                 </a>
-                <a href="https://wa.me/5491139869999?text=Hola,%20me%20interesa%20el%20plan%20SUPERIOR%20de%20RUS%20PetCare" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
+                <a href="https://wa.me/5491139869999?text=Hola!%20Me%20interesa%20el%20PLAN%20SUPERIOR%20de%20RUS%20PETCARE%20-%20WellVet." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-[#2F73E8] hover:bg-[#001489] text-white py-3 rounded-full text-sm font-semibold transition-all hover:scale-105">
                   <MessageCircle className="w-4 h-4" />
                   Hablar por WhatsApp
                 </a>
